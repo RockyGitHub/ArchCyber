@@ -2,17 +2,17 @@
 # wm independent hotkeys
 #
 #LockScreen
-super + x
+super + l
         betterlockscreen -l dimblur
 
 ## Screenshot ##
 # take a screenshot of a screen region and copy it to a clipboard
 shift + Print
-	/home/zeriax/.local/bin/scregcp -s /home/zeriax/Pictures/screenshots/
+	/home/$USER/.local/bin/scregcp -s /home/$USER/Pictures/screenshots/
 
 # take a screenshot of a whole window and copy it to a clipboard
 Print
-	/home/zeriax/.local/bin/scregcp /home/zeriax/Pictures/screenshots/
+	/home/$USER/.local/bin/scregcp /home/$USER/Pictures/screenshots/
 
 # terminal emulator
 super + Return
@@ -150,10 +150,10 @@ super + F11
 
 # Manage volume
 XF86Audio{Raise,Lower}Volume
-    /home/zeriax/.local/bin/changevolume {up,down}
+    /home/$USER/.local/bin/changevolume {up,down}
 
 XF86AudioMute
-	/home/zeriax/.local/bin/changevolume mute
+	/home/$USER/.local/bin/changevolume mute
 
 # Media keys
 XF86AudioNext
@@ -170,4 +170,4 @@ XF86AudioPrev
 
 # Screen controls
 XF86MonBrightness{Up,Down}
-	/home/zeriax/.local/bin/changebrightness {up,down}
+	/home/$USER/.local/bin/changebrightness {up,down}

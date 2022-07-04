@@ -9,10 +9,10 @@ xrdb -load ~/.Xresources
 dunst --config $HOME/.config/dunst/dunstrc &
 picom --config $HOME/.config/picom/picom.conf &
 sh ~/.config/polybar/launch.sh
-wal -i /home/zeriax/Pictures/wallpaper.jpg
+wal -i /home/$USER/Pictures/wallpaper.jpg
 mpd 
 xsetroot -cursor_name left_ptr
-setxkbmap -layout fi
+setxkbmap -layout us
 xautolock -detectsleep -time 10 -locker "betterlockscreen -l dim" -notify 30 -notifier "dunstify -u critical -t 30 -- ' locking in 30 seconds!'" &
 
 # ##############################################################################
