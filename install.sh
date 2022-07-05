@@ -15,6 +15,8 @@ echo 'source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme' >>~/.zs
 #todo install pp_json, zsh-autosuggestions (zsh plugins)
 #todo install neovim
 #todo install neovide
+#todo create the config file for neovim to be copied in this install script
 #todo init on startup neovim host to work with neovide
 #todo create an app-image bin directory and add it to the PATH
+#todo create a ~/.p10k.zsh and upload it to this repo to be copied in this install script (enable rust_version!)
 #todo update readme with new tools listed
